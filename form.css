@@ -1,0 +1,152 @@
+body {
+    background-image: url(he.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+}
+
+.formbox {
+        height: 480px;
+        width: 380px;
+        border-radius: 20px;
+        /* background-color: white; */
+        background: #7F7FD5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        position: relative;
+        margin:0% auto;
+        margin-top: 60px;
+        padding:5px;
+        overflow: hidden;
+}
+
+
+#regbtn{
+    color: black;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+    border:none;
+    width: 130px;
+    margin-left:35px;
+    margin-top: 20px;
+    outline: none;
+    cursor:pointer;
+}
+
+#logbtn{
+    color: black;
+    height: 40px;
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    border:none;
+    width: 130px;
+    margin-left:35px;
+    margin-top: 20px;
+    outline: none;
+    cursor:pointer;
+}
+
+
+
+.button:focus {
+    outline: none;
+}
+.buttonlog:focus {
+    outline: none;
+}
+.buttonlogs:focus {
+    outline: none;
+}
+.img{
+    height:30px;
+    width:30px;
+    margin:20px auto;
+}
+.u{
+    height:30px;
+    width:30px;
+    margin:25px auto;
+    border-radius:10px;
+}
+.v{
+    margin-left: 130px;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+}
+.input-field {
+    margin-left: 35px;
+    width: 80% ;
+    margin-top:0px;
+    padding: 10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid black;
+    border-right: 0 ;
+    outline: none;
+    background: transparent;
+}
+.cb{
+    margin-top:20px;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+.cbs{
+    margin-top:10px;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+
+.buttonlog{
+    color: black;
+    height: 40px;
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius: 20px;
+    border-style:none;
+    width: 200px;
+    margin-left:80px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.buttonlogs{
+    cursor: pointer;
+    color: black;
+    height: 40px;
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    border-style:none;
+    width: 200px;
+    margin-left:80px;
+    margin-top: 4px;
+}
+
+ .input-field:focus{
+    border-bottom-color:white;
+} 
+
+.input-field:focus ~ LABEL ,
+.input-field:valid ~ LABEL{
+    bottom: 55px;
+    transition: 0.5s;
+    font-size: 14px;
+    color: black;
+}
+
+LABEL {
+    left:35px;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    bottom: 30px;
+}
+.n{
+    color: white;
+}
